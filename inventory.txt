@@ -1,0 +1,2 @@
+target-1 ansible_host=192.168.122.29 ansible_ssh_pass=rodo
+target-2 ansible_host=192.168.122.232 ansible_ssh_pass=rodo
