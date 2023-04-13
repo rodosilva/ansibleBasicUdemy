@@ -1,0 +1,15 @@
+---
+# tasks file for firewalld
+
+- name: Install FirewallD
+  yum:
+    name: firewalld
+    state: latest
+    
+- name: Checking FirewallD Service
+  service:
+    name: firewalld
+    state: started
+    enabled: yes
+
+
